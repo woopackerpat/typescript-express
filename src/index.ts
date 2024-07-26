@@ -1,5 +1,4 @@
 import path from "path";
-const my_path = path.join(__dirname, "dotenv/config");
 import dotenv from "dotenv";
 dotenv.config({ path: path.join(__dirname, "../.env") });
 // import "dotenv/config";
